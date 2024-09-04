@@ -1,0 +1,716 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Russo+One&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+main{
+    background-color: #E7FBE6;
+}
+
+/* Settings Navbar */
+nav {
+    border: none !important;
+    background-color: transparent !important;
+    align-items: center;
+    font-family: Oswald;
+    font-size: 20px;
+    transition: 1s ease-in-out;
+}
+
+nav .navbar-brand{
+    color: white !important;
+    font-family: Viga;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.nav-link{
+    color: white !important;
+    margin-right: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1.7);
+}
+
+nav.active{
+    background-color: #62C4D2 !important;
+    transform: translate(0px);
+    transition: 0.8s;
+    box-shadow: 0px 5px 20px #708090;
+}
+/* Settings Navbar */
+
+
+/* Settings Bg Img */
+.card-img-overlay{
+    margin-top: 20%;
+    margin-left: 8%;
+}
+
+.card-img-overlay h1{
+    width: 60%;
+    font-weight: bold;
+}
+
+.card-img-overlay p{
+    width: 55%;
+    text-align: justify;
+    font-family: Poppins;
+}
+
+.card-img-overlay .btn-light{
+    margin-top: -5%;
+}
+
+.btn-explore{
+    background-color: transparent;
+    padding: 7px;
+    border-radius: 3px;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.5s ease-in-out;
+}
+
+.btn-explore:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+/* Settings Bg Img */
+
+
+/* Settings Features */
+main .card-header{
+    font-family: ;
+}
+
+main .card-body img{
+    width: 25% !important;
+}
+
+main .card-body .card-title{
+    font-size: 15px !important;
+    font-weight: bold;
+    font-family: ;
+}
+
+main .card-body .card-text{
+    font-size: 13px !important;
+    font-family: Poppins;
+}
+/* Settings Features */
+
+
+/* Settings Portofolio */
+.portofolio{
+    margin-top: 3%;
+}
+
+.portofolio .container{
+    border-radius: 15px;
+    height: 550px;
+    background-color: #508C9B !important;
+}
+
+.portofolio .card-header .captions{
+    font-family: Poppins;
+    text-align: justify;
+}
+
+.portofolio .container .card{
+  position: relative;
+  max-width: 300px;
+  height: 215px;  
+  background-color: #fff;
+  margin: 30px auto;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+  transition: 1s ease-in-out;
+  border-radius: 15px;
+}
+
+.portofolio .container .card:hover{
+  height: auto;
+  border-radius: 15px; 
+  height: 320px;
+  cursor: pointer;
+}
+
+.portofolio .container .card .image{
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -40%;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 15px;
+}
+
+.portofolio .container .card .image img{
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.portofolio .container .card .content{
+  position: relative;
+  top: -140px;
+  padding: 10px 15px;
+  color: #111;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  font-family: Poppins;
+  font-weight: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.portofolio .container .card:hover .content{
+   margin-top: 10%;
+   visibility: visible;
+   opacity: 1;
+   transition-delay: 0.5s;
+}
+/* Settings Portofolio */
+
+
+/* Settings About Us */
+.about{
+    margin-top: 5%;
+}
+
+.about img{
+    width: 80%;
+    margin-top: 4%;
+}
+
+.about .col p{
+    text-align: justify;
+    width: 90%;
+    font-family: Poppins;
+}
+
+.about .row-cols-2{
+    margin-top: 2%;
+}
+/* Settings About Us */
+
+
+/* Settings Our Service */
+.our-service{
+    margin-top: 3%;
+}
+
+.our-service p{
+    font-family: Poppins;
+    text-align: justify;
+}
+
+.our-service .icon-wrapper .caption{
+    text-align: justify;
+    letter-spacing: -0.5px;
+}
+
+.our-service .position-relative{
+    margin-top: 0% !important;
+}
+
+.our-service .icon-wrapper img{
+    width: 50%;
+}
+
+.our-service .icon-wrapper h6{
+    margin-top: -10%;
+}
+/* Settings Our Service */
+
+
+/* Settings Footer */
+.section{
+    background-color: ;
+    height: 250px;
+    margin-top: 5%;
+}
+
+.section .row{
+    padding-top: 3%;
+}
+
+.container .col-md-3 h5{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.container .col-md-3 ul li{
+    list-style: none;
+}
+
+.container .col-md-3 a{
+    font-size: 14px;
+}
+
+.container .quick-link{
+    margin-left: 30%;
+}
+
+.container .support-link{
+    margin-left: 23%;
+}
+
+.container .quick-link a{
+    text-decoration: none;
+    color: #2F4F4F;
+    margin-left: -21%;}
+
+.container .support-link a{
+    text-decoration: none;
+    color: #2F4F4F;
+    margin-left: -19%;
+}
+
+.container .contact-us p{
+    width: 100%;
+    color: #2F4F4F;
+    font-size: 14px;
+}
+
+.container .media-social{
+    margin-top: -4%;
+}
+
+.container .media-social .icons{
+    margin-left: -1%;
+}
+
+.container .media-social .icons a{
+    padding-left: 1.5%;
+}
+
+.footer{
+    padding-bottom: 0%;
+    margin-top: 3%;
+    text-align: center;
+    font-family: Poppins;
+}
+/* Settings Footer */
+
+
+/* Settings Responsive Ukuran 1200 */
+@media screen and (max-width: 1200px){
+/* Settings Responsive Bg Img */
+    .card-img-overlay{
+        margin-top: 25%;
+        margin-left: 10%;
+    }
+
+    .card-img-overlay h1{
+        width: 55%;
+        font-size: 38px;
+    }
+
+    .card-img-overlay p{
+        width: 50%;
+        font-size: 1em;
+    }
+/* Settings Responsive Bg Img */
+
+/* Settings Responsive Portofolio */
+    .portofolio .container{
+        height: 520px;
+    }
+    .portofolio .container .captions{
+        font-size: 0.8em;
+    }
+    .portofolio .container .card{
+        max-width: 100%;
+        height: 220px;
+    }
+/* Settings Responsive Portofolio */
+
+/* Settings Responsive About Us */
+    .about p{
+        font-size: 0.9em;
+    }
+    .about .card-text{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .about img{
+        margin-top: 5% !important;
+    }
+/* Settings Responsive About Us */
+
+/* Settings Responsive Our Service */
+    .our-service .card-title p{
+        font-size: 0.9em;
+    }
+/* Settings Responsive Our Service */
+
+/* Settings Responsive Footer */
+    .container .quick-link ul{
+        margin-left: -4%;
+    }
+    .container .support-link{
+        margin-left: -0%;
+    }
+    .container .support-link ul{
+        margin-left: 1%;
+        white-space: nowrap;
+    }
+/* Settings Responsive Footer */
+}
+/* Settings Responsive Ukuran 1200 */
+
+
+/* Settings Responsive Ukuran 1024 */
+@media screen and (max-width: 1024px){
+/* Settings Responsive Bg Img */
+    .card-img-overlay{
+        margin-top: 20% !important;
+        margin-left: 10% !important;
+    }
+
+    .card-img-overlay h1{
+        width: 55% !important;
+        font-size: 38px !important;
+    }
+
+    .card-img-overlay p{
+        width: 50%;
+        font-size: 1em;
+    }
+/* Settings Responsive Bg Img */
+
+/* Settings Responsive Portofolio */
+    .portofolio .container .captions{
+        font-size: 0.8em;
+    }
+    .portofolio .container .card{
+        max-width: 90%;
+        height: 170px;
+    }
+
+    .portofolio .container .card .image{
+        width: 100%;
+    }
+
+    .portofolio .container .card .content{
+        font-size: 0.8em;
+        top: -120px;
+    }
+/* Settings Responsive Portofolio */
+
+/* Settings Responsive About Us */
+    .about p{
+        font-size: 0.9em;
+    }
+    .about .card-text{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .about img{
+        margin-top: 13% !important;
+    }
+/* Settings Responsive About Us */
+
+/* Settings Responsive Our Service */
+    .our-service .card-title p{
+        font-size: 0.9em;
+    }
+/* Settings Responsive Our Service */
+
+/* Settings Responsive Footer */
+    .container .quick-link ul{
+        margin-left: -10%;
+    }
+    .container .support-link{
+        margin-left: -0%;
+    }
+    .container .support-link ul{
+        margin-left: -4%;
+        white-space: nowrap;
+    }
+/* Settings Responsive Footer */
+}
+/* Settings Responsive Ukuran 1024 */
+
+
+/* Settings Responsive Ukuran 812 */
+@media screen and (max-width: 812px){
+/* Settings Responsive Bg Img */
+    .card-img-overlay{
+        margin-top: 60% !important;
+    }
+
+    .card-img-overlay h1{
+        width: 100% !important;
+        font-size: 30px !important;
+    }
+/* Settings Responsive Bg Img */
+
+/* Settings Responsive Portofolio */
+    .portofolio .container{
+        height: auto;
+        width: 90% !important;
+    }
+    .portofolio .container .card{
+        max-width: 90%;
+        height: 220px;
+    }
+/* Settings Responsive Portofolio */
+
+/* Settings Responsive About Us */
+    .about p{
+        font-size: 0.8em;
+    }
+    .about img{
+        margin-top: 98% !important;
+    }
+/* Settings Responsive About Us */
+
+/* Settings Responsive Our Service */
+    .our-service .card-title p{
+        font-size: 0.8em;
+    }
+/* Settings Responsive Our Service */
+
+/* Settings Responsive Footer */
+    .section .quick-link ul{
+        margin-left: 1.4% !important;
+    }
+
+    .section .support-link ul{
+        margin-left: 1.4% !important;
+    }
+/* Settings Responsive Footer */
+}
+/* Settings Responsive Ukuran 812 */
+
+
+/* Settings Responsive Ukuran 360 */
+@media screen and (max-width: 360px){
+    /* Settings Responsive Bg Img */
+    .card-img-overlay{
+        margin-top: 65% !important;
+    }
+
+    .card-img-overlay h1{
+        width: 100% !important;
+        font-size: 27px !important;
+    }
+
+    .card-img-overlay p{
+        width: 90%;
+    }
+/* Settings Responsive Bg Img */
+
+/* Settings Responsive Portofolio */
+    .portofolio .container{
+        height: auto;
+        width: 90% !important;
+    }
+/* Settings Responsive Portofolio */
+
+/* Settings Responsive About Us */
+    .about p{
+        font-size: 0.8em;
+    }
+    .about img{
+        margin-top: 105% !important;
+    }
+/* Settings Responsive About Us */
+
+/* Settings Responsive Our Service */
+    .our-service .card-title p{
+        font-size: 0.8em;
+    }
+/* Settings Responsive Our Service */
+
+/* Settings Responsive Footer */
+    .section .quick-link ul{
+        margin-left: 1% !important;
+    }
+
+    .section .support-link ul{
+        margin-left: 1% !important;
+    }
+/* Settings Responsive Footer */
+}
+/* Settings Responsive Ukuran 360 */
+
+
+/* Settings Responsive Ukuran 320 */
+@media screen and (max-width: 320px){
+/* Settings Responsive Header */
+    nav .navbar-brand{
+        width: 50%;
+    }
+
+    .card-img-overlay{
+        margin-top: 70% !important;
+    }
+
+    .card-img-overlay h1{
+        width: 80% !important;
+        font-size: 1.5em !important;
+    }
+
+    .card-img-overlay p{
+        width: 30%;
+        font-size: 0.8em;
+    }
+/* Settings Responsive Header */
+    
+/* Settings Responsive Portofolio */
+    .portofolio .container .captions{
+        font-size: 0.8em;
+    }
+    .portofolio .container .card{
+        max-width: 90%;
+        height: 170px;
+    }
+
+    .portofolio .container .card .image{
+        width: 100%;
+    }
+
+    .portofolio .container .card .content{
+        font-size: 0.8em;
+        top: -120px;
+    }
+/* Settings Responsive Portofolio */
+
+/* Settings Responsive About Us */
+    .about p{
+        font-size: 0.8em;
+    }
+    .about img{
+        margin-top: 140% !important;
+    }
+/* Settings Responsive About Us */
+
+
+/* Settings Responsive Our Service */
+    .our-service .card-title p{
+        font-size: 0.8em;
+    }
+/* Settings Responsive Our Service */
+
+
+/* Settings Responsive Footer */
+    .section .quick-link ul{
+        margin-left: -1% !important;
+    }
+
+    .section .support-link ul{
+        margin-left: -1% !important;
+    }
+/* Settings Responsive Footer */
+
+}
+/* Settings Responsive Ukuran 320 */
+
+
+/* Settings Responsive Ukuran 480 */
+@media screen and (max-width: 480px){
+
+/* Settings Responsive Bg Img */
+    .bg-img img{
+        height: 710px;
+    }
+
+    .card-img-overlay{
+        margin-top: 50%;
+    }
+
+    .card-img-overlay h1{
+        width: 110%;
+        font-size: 30px;
+    }
+
+    .card-img-overlay p{
+        width: 90%;
+    }
+/* Settings Responsive Bg Img */
+
+
+/* Settings Responsive Portofolio */
+    .portofolio .container{
+        height: auto;
+        width: 80%;
+    }
+/* Settings Responsive Portofolio */
+
+
+/* Settings Responsive About Us */
+.about img{
+    margin-top: 120%;
+}
+/* Settings Responsive About Us */
+
+
+/* Settings Responsive Footer */
+    .section{
+        height: 582px;
+    }
+
+    .section .contact-us h5{
+        font-weight: 600;
+    }
+
+    .section .contact-us p{
+        margin-top: 0% !important;
+    }
+
+    .section .quick-link{
+        margin-left: 0%;
+    }
+
+    .section .quick-link ul{
+        margin-left: 2%;
+    }
+
+    .section .quick-link h5{
+        font-weight: 600;
+    }
+
+    .section .support-link{
+        margin-left: 0%;
+    }
+
+    .section .support-link ul{
+        margin-left: 2%;
+    }
+
+    .section .support-link h5{
+        font-weight: 600;
+    }
+
+    .quick-link a{
+        margin-left: -11% !important;
+    }
+
+    .support-link a{
+        margin-left: -11% !important;
+    }
+
+    .footer{
+        margin-top: 10% !important;
+    }
+}
+/* Settings Responsive Ukuran 480 */
+
+
+/* Settings Responsive Ukuran 480 */
