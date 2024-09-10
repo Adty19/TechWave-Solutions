@@ -16,6 +16,10 @@ html{
 	scroll-behavior: smooth;
 }
 
+body{
+	overflow-x: hidden;
+}
+
 @font-face {
   font-family: "Ailerons";
   src: url('assets/font/Ailerons-Typeface.otf');
@@ -67,7 +71,7 @@ nav.active{
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  height: 60vw;
+  height: auto;
   width: 100%;
 }
 
