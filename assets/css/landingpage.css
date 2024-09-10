@@ -2,144 +2,122 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 
 :root {
-    --main-green: #79dd09;
-    --main-green-rgb-015: rgba(121, 221, 9, 0.1);
-    --main-yellow: #bdbb49;
-    --main-yellow-rgb-015: rgba(189, 187, 73, 0.1);
-    --main-red: #bd150b;
-    --main-red-rgb-015: rgba(189, 21, 11, 0.1);
-    --main-blue: #0076bd;
-    --main-blue-rgb-015: rgba(0, 118, 189, 0.1);
-  }
+  --main-green: #79dd09;
+  --main-green-rgb-015: rgba(121, 221, 9, 0.1);
+  --main-yellow: #bdbb49;
+  --main-yellow-rgb-015: rgba(189, 187, 73, 0.1);
+  --main-red: #bd150b;
+  --main-red-rgb-015: rgba(189, 21, 11, 0.1);
+  --main-blue: #0076bd;
+  --main-blue-rgb-015: rgba(0, 118, 189, 0.1);
+}
 
 html{
 	scroll-behavior: smooth;
 }
 
-body{
-    background-color: white;
-    overflow-x: hidden;
-}
-
 @font-face {
-    font-family: "Ailerons";
-    src: url('assets/font/Ailerons-Typeface.otf');
+  font-family: "Ailerons";
+  src: url('assets/font/Ailerons-Typeface.otf');
 }
 
 /* Settings Navbar */
 nav{
-    border: none !important;
-    background-color: transparent !important;
-    align-items: center;
-    font-size: 15px;
-    font-weight: bold;
+  border: none !important;
+  background-color: transparent !important;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 nav .navbar-brand{
-	color: black !important;
-	font-size: 30px;
-    cursor: pointer;
-    font-family: Ailerons;
+  cursor: pointer;
 }
 
 .nav-link{
-    color: black !important;
-    margin-right: 10px;
+  color: black !important;
+   margin-right: 10px;
 }
 
 .nav-link:after{
 	content: '';
-  	display: block;
-  	height: 3px;
-  	width: 0;
-  	background: whitesmoke;
-  	transition: width .6s ease, background-color .7s ease;
+  display: block;
+  height: 3px;
+  width: 0;
+  background: whitesmoke;
+  transition: width .6s ease, background-color .7s ease;
 }
 
 .nav-link:hover:after{
 	width: 100%;
-  	background: #48D1CC;
+  background: #48D1CC;
 }
 
 nav.active{
 	background-color: #62C4D2 !important;
-    transform: translate(0px);
-    transition: 0.8s;
-    box-shadow: 0px 5px 20px #708090;
+  transform: translate(0px);
+  transition: 0.8s;
+  box-shadow: 0px 5px 20px #708090;
 }
 /* Settings Navbar */
 
 
 /* Settings Img and Text */
 .background-img img{
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    margin-top: -5.2%;
-    height: 60vw;
-    width: 100%;
-    z-index: 5;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 60vw;
+  width: 100%;
 }
 
-.background-img .img-right img{
-    z-index: 10;
-    position: relative;
-    max-width: 100%;
-    height: auto;
-    margin-top: -40%;
-    margin-left: 11vw !important;
-    margin-bottom: 5%;
+.background-img .card-img-overlay{
+  margin-top: 23vw;
+  margin-left: 10vw;
 }
 
-.background-img .container{
-    margin-top: -30%;
+.background-img .card-img-overlay h3{
+  font-size: 32px;
 }
 
-.background-img .text-img{
-    margin-left: 8vw;
-    margin-top: -8%;
+.background-img .card-img-overlay p{
+  width: 50vw;
+  text-align: justify;
 }
 
-.background-img .text-img h2{
-    font-size: 2.5vw;
+.background-img .card-img-overlay a{
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  border: 2px solid black;
+  padding: 0.7vw;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
 }
 
-.background-img .text-img p{
-    width: 130%;
-    font-size: 1.2vw;
-    text-align: justify;
-}
-
-.background-img .text-img .btn-explore{
-    font-weight: 600;
-    padding: 0.5vw;
-    text-decoration: none;
-    background-color: transparent;
-    border: 2px solid black;
-    font-size: 15px;
-    color: black;
-    transition: 0.5s ease-out;
-}
-
-.background-img .text-img .btn-explore:hover{
-    background-color: black;
-    color: white;
-    border: 2px solid black;
-    transition: 0.5s ease-in-out;
+.background-img .card-img-overlay a:hover{
+  background-color: black;
+  border: 2px solid black;
+  color: white;
 }
 /* Settings Img and Text */
 
 
 /* Settings Features */
+.features{
+  margin-top: -8%;
+}
+
 .features .card{
 	border-radius: 10px;
 	background-color: #E6E6FA;
-    border: none;
+  border: none;
 }
 
 .features .card img{
-    width: 20%;
-    margin-top: 5%;
+  width: 20%;
+  margin-top: 5%;
 }
 
 .features .card-body p{
@@ -151,22 +129,22 @@ nav.active{
 
 /* Settings Portofolio */
 .portofolio{
-    height: auto;
-    width: 97%;
-    margin: auto;
-    padding: auto;
-    margin-top: 3%;
+  height: auto;
+  width: 97%;
+  margin: auto;
+  padding: auto;
+  margin-top: 3%;
 }
 
 .portofolio .container-fluid .content-portofolio{
-    background-color: #48D1CC;
-    border-radius: 10px;
+  background-color: #48D1CC;
+  border-radius: 10px;
 }
 
 .portofolio .container-fluid .text-portofolio p{
-    font-size: 14px;
-    padding: 0.5vw;
-    font-weight: 0;
+  font-size: 14px;
+  padding: 0.5vw;
+  font-weight: 0;
 }
 
 a, a:hover {
@@ -756,6 +734,49 @@ button {
 
 
 /* Settings Responsive */
+@media only screen and (max-width: 320px){
+  nav .navbar-brand{
+    width: 70%;
+  }
+  
+  nav .navbar-brand img{
+    width: 80%;
+  }
+
+  .background-img img{
+    height: 300px;
+  }
+
+  .background-img .card-img-overlay{
+    margin-top: 30% !important;
+  }
+
+  .background-img .card-img-overlay h3{
+    font-size: 1em !important;
+    width: 80%;
+  }
+
+  .background-img .card-img-overlay p{
+    font-size: 0.6em !important;
+    text-align: justify;
+  }
+
+  .background-img .card-img-overlay .button{
+    margin-top: -3%;
+  }
+
+  .portofolio .text-portofolio p{
+    text-align: justify;
+    width: 95%;
+    margin: auto;
+    padding: auto;
+  }
+
+  .our-service .text-service p{
+    text-align: justify;
+  }
+}
+
 @media screen and (min-width: 320px) {
   .sol_card_top_3 {
     position: relative;
@@ -777,6 +798,40 @@ button {
 }
 
 @media only screen and (max-width:480px) { 
+  .background-img img{
+    height: 500px;
+  }
+
+  .background-img .card-img-overlay{
+    margin-top: 40% !important;
+    margin-left: 5% !important;
+  }
+
+  .background-img .card-img-overlay h3{
+    font-size: 1.2em !important;
+    width: 60%;
+  }
+
+  .background-img .card-img-overlay p{
+    font-size: 0.8em !important;
+    text-align: justify;
+  }
+
+  .background-img .card-img-overlay .button{
+    margin-top: -3% !important;
+  }
+
+  .portofolio .text-portofolio p{
+    text-align: justify;
+    width: 95%;
+    margin: auto;
+    padding: auto;
+  }
+
+  .our-service .text-service p{
+    text-align: justify;
+  }
+  
   .social_profile ul li a{
     width:40px;
     height:40px;
@@ -788,7 +843,44 @@ button {
   }
 }
 
-@media screen and (min-width: 769px) {
+@media only screen and (max-width: 1280px){
+  .background-img .card-img-overlay{
+    margin-top: 20%;
+    margin-left: 10.5%;
+  }
+
+  .background-img .card-img-overlay h3{
+    font-size: 1.5em;
+    width: 60%;
+  }
+
+  .background-img .card-img-overlay p{
+    font-size: 1em;
+    text-align: justify;
+  }
+
+  .background-img .card-img-overlay .button{
+    margin-top: -1%;
+  }
+
+  .footer .title-desc{
+    white-space: nowrap;
+  }
+}
+
+@media screen and (min-width: 769px){
+  .features .card-body p{
+    text-align: justify;
+    letter-spacing: -0.8px;
+  }
+
+  .portofolio .text-portofolio p{
+    text-align: justify;
+    width: 95%;
+    margin: auto;
+    padding: auto;
+  }
+  
   .postcard {
     flex-wrap: inherit;
   }
@@ -880,6 +972,14 @@ button {
     flex: 1;
   }
 
+  .about .card img{
+    margin-top: 30%;
+  }
+
+  .our-service .text-service p{
+    text-align: justify;
+  }
+
   .single_footer{
     margin-bottom:30px;
   }
@@ -901,7 +1001,12 @@ button {
   }
 }
   
- @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
+  .about .card img{
+    margin-top: 7.5%;
+    width: 90%;
+  }
+  
   .postcard .postcard__text {
     padding: 2rem 3.5rem;
   }
