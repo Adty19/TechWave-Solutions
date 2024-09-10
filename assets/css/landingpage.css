@@ -808,13 +808,14 @@ button {
   }
 
   .background-img .card-img-overlay h3{
-    font-size: 1.2em !important;
-    width: 60%;
+    font-size: 1.5em !important;
+    width: 70% !important;
   }
 
   .background-img .card-img-overlay p{
     font-size: 0.8em !important;
     text-align: justify;
+    width: 65%;
   }
 
   .background-img .card-img-overlay .button{
