@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
   --main-green: #79dd09;
@@ -76,34 +78,39 @@ nav.active{
 }
 
 .background-img .card-img-overlay{
-  margin-top: 20vw;
+  margin-top: 17vw !important;
   margin-left: 8%;
 }
 
-.background-img .card-img-overlay h3{
-  font-size: 31px;
+.background-img .card-img-overlay h1{
+  width: 60%;
+  font-family: Montserrat;
+  color: #033E3E;
 }
 
 .background-img .card-img-overlay p{
   width: 50vw;
   text-align: justify;
+  font-family: kanit;
+  font-weight: reguler;
+  color: #797979;
 }
 
 .background-img .card-img-overlay a{
-  color: black;
+  color: white;
   text-decoration: none;
-  background-color: white;
-  border: 2px solid black;
+  background-color: #2AA0B1;
+  border: 2px solid #2AA0B1;
   padding: 0.7vw;
   border-radius: 5px;
-  font-weight: bold;
+  font-family: kanit;
   transition: 0.3s ease-in-out;
 }
 
 .background-img .card-img-overlay a:hover{
-  background-color: black;
-  border: 2px solid black;
-  color: white;
+  background-color: white;
+  border: 2px solid #2AA0B1;
+  color: #2AA0B1;
 }
 /* Settings Img and Text */
 
@@ -114,8 +121,11 @@ nav.active{
 }
 
 .features .card{
-	border-radius: 10px;
-	background-color: #E6E6FA;
+	background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border-radius: 10px;
   border: none;
 }
 
@@ -124,9 +134,15 @@ nav.active{
   margin-top: 5%;
 }
 
+.features .card-body h5{
+  font-family: Montserrat;
+}
+
 .features .card-body p{
 	color: #A9A9A9;
 	font-size: 14px;
+  font-family: kanit;
+  text-align: justify;
 }
 /* Settings Features */
 
@@ -138,6 +154,14 @@ nav.active{
   margin: auto;
   padding: auto;
   margin-top: 3%;
+}
+
+.portofolio .text-portofolio h3{
+  font-family: Montserrat;
+}
+
+.portofolio .text-portofolio p{
+  font-family: kanit;
 }
 
 .portofolio .container-fluid .content-portofolio{
@@ -182,6 +206,7 @@ a, a:hover {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
+  font-family: Viga;
 }
 
 .postcard .small {
@@ -224,6 +249,7 @@ a, a:hover {
   text-overflow: ellipsis;
   text-align: justify;
   height: 100%;
+  font-family: Kanit;
 }
 
 .postcard .postcard__tagbox {
@@ -349,10 +375,11 @@ a, a:hover {
 }
 /* Settings Portofolio */
 
+
 /* Settings About Us */
 .one-bg{
-  background-color: snow;
   height: auto;
+  margin-bottom: 5%;
 }
 
 .about{
@@ -362,6 +389,7 @@ a, a:hover {
 
 .about .container h3{
   padding-top: 2%;
+  font-family: Montserrat;
 }
 
 .about .card{
@@ -370,11 +398,12 @@ a, a:hover {
 }
 
 .about .card img{
-  margin-top: 7%;
+  margin-top: 7% !important;
 }
 
 .about .card p{
   text-align: justify;
+  font-family: Kanit;
 }
 /* Settings About Us */
 
@@ -382,6 +411,14 @@ a, a:hover {
 .our-service{
   margin-top: 3%;
   height: auto;
+}
+
+.our-service .text-service h3{
+  font-family: Montserrat;
+}
+
+.our-service .text-service p{
+  font-family: Kanit;
 }
 
 .section_our_solution{
@@ -457,11 +494,13 @@ a, a:hover {
   font-size: 1.3rem;
   margin-top: 13px;
   margin-bottom: 13px;
+  font-family: Montserrat;
 }
   
 .solution_card .solu_description p {
   font-size: 15px;
   margin-bottom: 15px;
+  font-family: Kanit;
 }
   
 .solution_card .solu_description button {
@@ -566,7 +605,7 @@ a:focus {
 }
 
 .footer {
-  background: grey;
+  background: #62C4D2;
   padding-top: 80px;
   padding-bottom: 40px;
 }
@@ -578,6 +617,7 @@ a:focus {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 20px;
+  font-family: Montserrat;
 }
 
 .single_footer h4::after {
@@ -587,10 +627,6 @@ a:focus {
   width: 40px;
   background: #fff;
   margin-top: 20px;
-}
-
-.single_footer p{
-  color:#fff;
 }
 
 .single_footer ul {
@@ -606,6 +642,7 @@ a:focus {
   line-height: 36px;
   font-size: 15px;
   text-transform: capitalize;
+  font-family: Kanit;
 }
 
 .single_footer ul li a:hover{ 
@@ -629,7 +666,7 @@ a:focus {
 }
 
 .social_profile{
-  margin-top: -5%;
+  margin-top: 0%;
 }
 
 .social_profile ul{
@@ -672,62 +709,115 @@ a:focus {
   font-size: 15px;
   border-top: 1px solid rgba(255,255,255,0.4);
   text-align: center;
-}
-
-.copyright a{
-  color:#01c7e9;transition: all 0.2s ease 0s;
-}
-
-.copyright a:hover{
-  color:#ff3666;
+  font-family: Montserrat;
 }
 
 
-/* Settings Responsive */
-@media only screen and (max-width: 320px){
+
+/* Settings Responsive 300 - 410 */
+@media (min-width: 300px) and (max-width: 410px){
   nav .navbar-brand{
     width: 70%;
   }
-  
+
   nav .navbar-brand img{
-    width: 80%;
-  }
-
-  .background-img img{
-    height: 300px;
-  }
-
-  .background-img .card-img-overlay{
-    margin-top: 30% !important;
-  }
-
-  .background-img .card-img-overlay h3{
-    font-size: 1em !important;
-    width: 80%;
-  }
-
-  .background-img .card-img-overlay p{
-    font-size: 0.6em !important;
-    text-align: justify;
-  }
-
-  .background-img .card-img-overlay .button{
+    width: 70%;
     margin-top: -3%;
   }
 
+  .background-img .card-img-overlay{
+    margin-top: 15%;
+    margin-left: 5%;
+  }
+
+  .background-img .card-img-overlay h1{
+    font-size: 0.7em;
+    width: 65%;
+  }
+
+  .background-img .card-img-overlay p{
+    font-size: 0.5em;
+    width: 65%;
+  }
+
+  .background-img .card-img-overlay .button{
+    margin-top: -3.5%;
+  }
+
+  .features{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .features .card{
+    width: 85%;
+    padding: auto;
+    margin: auto;
+  }
+
+  .features .card h5{
+    font-size: 1em;
+  }
+
+  .features .card p{
+    font-size: 0.7em;
+  }
+
+  .portofolio .text-portofolio h3{
+    font-size: 1.2em;
+  }
+
   .portofolio .text-portofolio p{
+    font-size: 0.7em !important;
     text-align: justify;
-    width: 95%;
+    width: 90%;
+    padding: auto;
+    margin: auto;
+  }
+
+  .postcard .postcard__title{
+    font-size: 1.3em;
+  }
+
+  .postcard .postcard__subtitle{
+    font-size: 0.7em;
+  }
+
+  .postcard .postcard__preview-txt{
+    font-size: 0.7em;
+  }
+
+  .about h3{
+    font-size: 1.2em;
+  }
+
+  .about .card img{
+    width: 90%;
     margin: auto;
     padding: auto;
   }
 
+  .about .card-body p{
+    font-size: 0.7em;
+  }
+
+  .our-service .text-service h3{
+    font-size: 1.2em;
+  }
+
   .our-service .text-service p{
+    font-size: 0.7em;
     text-align: justify;
   }
-}
 
-@media screen and (min-width: 320px) {
+  .solution_card .solu_title h3{
+    font-size: 1.2em;
+  }
+
+  .solution_card .solu_description p{
+    font-size: 0.7em;
+  }
+
   .sol_card_top_3 {
     position: relative;
     top: 0;
@@ -742,93 +832,40 @@ a:focus {
     flex: auto;
   }
 
-  .social_profile{
-    margin-top: 0%;
+  .footer .row{
+    margin-top: -15%;
+  }
+
+  .footer .single_footer ul{
+    margin-top: -5%;
+  }
+
+  .footer .single_footer a{
+    font-size: 0.8em;
+  }
+
+  .footer .single_footer_address h4{
+    margin-top: 8%;
+    font-size: 1.2em;
+  }
+
+  .footer .single_footer_address ul{
+    margin-top: -5%;
+  }
+
+  .footer .single_footer_address a{
+    font-size: 0.8em;
+  }
+
+  .footer .copyright{
+    font-size: 0.8em;
   }
 }
+/* Settings Responsive 300 - 470 */
 
-@media only screen and (max-width:480px) { 
-  .background-img img{
-    height: 500px;
-  }
 
-  .background-img .card-img-overlay{
-    margin-top: 40% !important;
-    margin-left: 5% !important;
-  }
-
-  .background-img .card-img-overlay h3{
-    font-size: 1.5em !important;
-    width: 70% !important;
-  }
-
-  .background-img .card-img-overlay p{
-    font-size: 0.8em !important;
-    text-align: justify;
-    width: 65%;
-  }
-
-  .background-img .card-img-overlay .button{
-    margin-top: -3% !important;
-  }
-
-  .portofolio .text-portofolio p{
-    text-align: justify;
-    width: 95%;
-    margin: auto;
-    padding: auto;
-  }
-
-  .our-service .text-service p{
-    text-align: justify;
-  }
-  
-  .social_profile ul li a{
-    width:40px;
-    height:40px;
-    line-height:40px;
-  }
-
-  .footer .single_footer_address{
-    margin-top: 7%;
-  }
-
-  .social_profile{
-    margin-top: 0%;
-  }
-}
-
-@media only screen and (max-width: 1280px){
-  .background-img .card-img-overlay{
-    margin-top: 20%;
-    margin-left: 10.5%;
-  }
-
-  .background-img .card-img-overlay h3{
-    font-size: 1.5em;
-    width: 60%;
-  }
-
-  .background-img .card-img-overlay p{
-    font-size: 1em;
-    text-align: justify;
-  }
-
-  .background-img .card-img-overlay .button{
-    margin-top: -1%;
-  }
-
-  .footer .title-desc{
-    white-space: nowrap;
-  }
-}
 
 @media screen and (min-width: 769px){
-  .features .card-body p{
-    text-align: justify;
-    letter-spacing: -0.8px;
-  }
-
   .portofolio .text-portofolio p{
     text-align: justify;
     width: 95%;
@@ -926,74 +963,132 @@ a:focus {
   .our_solution_category .solution_cards_box {
     flex: 1;
   }
+}
+
+@media (min-width: 410px) and (max-width: 769px){
+  nav .navbar-brand img{
+    width: 80%;
+  }
+  
+  .background-img .card-img-overlay{
+    margin-top: 15% !important;
+    margin-left: 5%;
+  }
+
+  .background-img .card-img-overlay h1{
+    font-size: 1em;
+    width: 65%;
+  }
+
+  .background-img .card-img-overlay p{
+    font-size: 0.6em;
+    width: 60%;
+  }
+
+  .background-img .card-img-overlay .button{
+    margin-top: -3%;
+  }
+
+  .features{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .features .card{
+    width: 90%;
+    margin: auto;
+    padding: auto;
+  }
+
+  .features .card-body h5{
+    font-size: 1.2em;
+  }
+
+  .features .card-body p{
+    font-size: 0.8em;
+  }
+
+  .portofolio .text-portofolio h3{
+    font-size: 1.4em;
+  }
+
+  .portofolio .text-portofolio p{
+    font-size: 0.8em !important;
+    text-align: justify;
+    width: 90%;
+    padding: auto;
+    margin: auto;
+  }
+
+  .postcard .postcard__title{
+    font-size: 1.2em;
+  }
+
+  .postcard .postcard__subtitle{
+    font-size: 0.8em;
+  }
+
+  .postcard .postcard__preview-txt{
+    font-size: 0.8em;
+  }
+
+  .about h3{
+    font-size: 1.4em;
+  }
 
   .about .card img{
-    margin-top: 30%;
+    width: 90%;
+    margin: auto;
+    padding: auto;
+  }
+
+  .about .card-body p{
+    font-size: 0.8em;
+  }
+
+  .our-service .text-service h3{
+    font-size: 1.4em;
   }
 
   .our-service .text-service p{
+    font-size: 0.8em;
     text-align: justify;
   }
 
-  .single_footer{
-    margin-bottom:30px;
-  }
-  
-  .subscribe__btn{
-    right:0px;
+  .solution_card .solu_title h3{
+    font-size: 1.2em;
   }
 
-  .subscribe__input{
-    padding: 0 50px 0 20px;
+  .solution_card .solu_description p{
+    font-size: 0.8em;
   }
 
-  .social_profile ul li a{
-    margin-right:10px;margin-bottom:10px;
+  .footer .row{
+    margin-top: -11%;
   }
 
-  .social_profile{
-    margin-top: 0%;
-  }
-}
-  
-@media screen and (min-width: 1024px) {
-  .about .card img{
-    margin-top: 7.5%;
-    width: 90%;
-  }
-  
-  .postcard .postcard__text {
-    padding: 2rem 3.5rem;
-  }
-  
-  .postcard .postcard__text:before {
-    content: "";
-    position: absolute;
-    display: block;
-    top: -20%;
-    height: 130%;
-    width: 55px;
-  }
-  
-  .postcard.dark .postcard__text:before {
-    background: #18151f;
-  }
-  
-  .postcard.light .postcard__text:before {
-    background: #e1e5ea;
+  .footer .single_footer ul{
+    margin-top: -5%;
   }
 
-  .sol_card_top_3 {
-    position: relative;
-    top: -3rem;
+  .footer .single_footer a{
+    font-size: 0.9em;
   }
 
-  .our_solution_category {
-    width: 50%;
-    margin: 0 auto;
+  .footer .single_footer_address h4{
+    margin-top: 8%;
+    font-size: 1.4em;
   }
 
-  .social_profile{
-    margin-top: 0%;
+  .footer .single_footer_address ul{
+    margin-top: -5%;
+  }
+
+  .footer .single_footer_address a{
+    font-size: 0.9em;
+  }
+
+  .footer .copyright{
+    font-size: 0.9em;
   }
 }
