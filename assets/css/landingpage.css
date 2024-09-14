@@ -34,6 +34,7 @@ nav{
   align-items: center;
   font-size: 15px;
   font-weight: bold;
+  transition: background-color 1s ease-in-out;
 }
 
 nav .navbar-brand{
@@ -64,6 +65,10 @@ nav.active{
   transform: translate(0px);
   transition: 0.8s;
   box-shadow: 0px 5px 20px #708090;
+}
+
+navbar.active {
+  background-color: #0099cc;
 }
 /* Settings Navbar */
 
@@ -864,15 +869,7 @@ a:focus {
 /* Settings Responsive 300 - 470 */
 
 
-
 @media screen and (min-width: 769px){
-  .portofolio .text-portofolio p{
-    text-align: justify;
-    width: 95%;
-    margin: auto;
-    padding: auto;
-  }
-  
   .postcard {
     flex-wrap: inherit;
   }
@@ -962,6 +959,16 @@ a:focus {
 
   .our_solution_category .solution_cards_box {
     flex: 1;
+  }
+
+  .sol_card_top_3 {
+    position: relative;
+    top: -3rem;
+  }
+
+  .our_solution_category {
+    width: 50%;
+    margin: 0 auto;
   }
 }
 
@@ -1091,4 +1098,9 @@ a:focus {
   .footer .copyright{
     font-size: 0.9em;
   }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024){
+  
 }
