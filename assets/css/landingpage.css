@@ -41,8 +41,18 @@ nav .navbar-brand{
   cursor: pointer;
 }
 
+.navbar-brand img {
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.logo-transition {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
 .nav-link{
-  color: black !important;
+  color: white !important;
   margin-right: 10px;
 }
 
@@ -153,7 +163,7 @@ navbar.active {
 
 
 /* Settings Portofolio */
-.portofolio{
+#portofolio{
   height: auto;
   width: 97%;
   margin: auto;
@@ -161,22 +171,22 @@ navbar.active {
   margin-top: 3%;
 }
 
-.portofolio .text-portofolio h3{
+#portofolio .text-portofolio h3{
   font-family: Montserrat;
   color: white;
 }
 
-.portofolio .text-portofolio p{
+#portofolio .text-portofolio p{
   font-family: kanit;
   color: white;
 }
 
-.portofolio .container-fluid .content-portofolio{
+#portofolio .container-fluid .content-portofolio{
   background-color: #48D1CC;
   border-radius: 10px;
 }
 
-.portofolio .container-fluid .text-portofolio p{
+#portofolio .container-fluid .text-portofolio p{
   font-size: 14px;
   padding: 0.5vw;
   font-weight: 0;
@@ -389,27 +399,27 @@ a, a:hover {
   background-color: #48D1CC;
 }
 
-.about{
+#about{
   margin-top: 3%;
   height: auto;
 }
 
-.about .container h3{
+#about .container h3{
   padding-top: 2%;
   font-family: Montserrat;
   color: white;
 }
 
-.about .card{
+#about .card{
   background-color: transparent;
   border: none;
 }
 
-.about .card img{
+#about .card img{
   margin-top: 7% !important;
 }
 
-.about .card p{
+#about .card p{
   text-align: justify;
   font-family: Kanit;
   color: white;
@@ -417,17 +427,17 @@ a, a:hover {
 /* Settings About Us */
 
 /* Settings Our Service */
-.our-service{
+#our-service{
   margin-top: 3%;
   height: auto;
 }
 
-.our-service .text-service h3{
+#our-service .text-service h3{
   font-family: Montserrat;
   color: white;
 }
 
-.our-service .text-service p{
+#our-service .text-service p{
   font-family: Kanit;
   color: white;
 }
@@ -509,6 +519,7 @@ a, a:hover {
 .solution_card .solu_description p {
   font-size: 15px;
   margin-bottom: 15px;
+  text-align: justify;
 }
 
 .solution_card .solu_description button {
@@ -767,11 +778,11 @@ a:focus {
     font-size: 0.7em;
   }
 
-  .portofolio .text-portofolio h3{
+  #portofolio .text-portofolio h3{
     font-size: 1.2em;
   }
 
-  .portofolio .text-portofolio p{
+  #portofolio .text-portofolio p{
     font-size: 0.7em !important;
     text-align: justify;
     width: 90%;
@@ -795,21 +806,21 @@ a:focus {
     font-size: 1.2em;
   }
 
-  .about .card img{
+  #about .card img{
     width: 90%;
     margin: auto;
     padding: auto;
   }
 
-  .about .card-body p{
+  #about .card-body p{
     font-size: 0.7em;
   }
 
-  .our-service .text-service h3{
+  #our-service .text-service h3{
     font-size: 1.2em;
   }
 
-  .our-service .text-service p{
+  #our-service .text-service p{
     font-size: 0.7em;
     text-align: justify;
   }
@@ -912,11 +923,11 @@ a:focus {
     font-size: 0.8em;
   }
 
-  .portofolio .text-portofolio h3{
+  #portofolio .text-portofolio h3{
     font-size: 1.4em;
   }
 
-  .portofolio .text-portofolio p{
+  #portofolio .text-portofolio p{
     font-size: 0.8em !important;
     text-align: justify;
     width: 90%;
@@ -936,25 +947,25 @@ a:focus {
     font-size: 0.8em;
   }
 
-  .about h3{
+  #about h3{
     font-size: 1.4em;
   }
 
-  .about .card img{
+  #about .card img{
     width: 90%;
     margin: auto;
     padding: auto;
   }
 
-  .about .card-body p{
+  #about .card-body p{
     font-size: 0.8em;
   }
 
-  .our-service .text-service h3{
+  #our-service .text-service h3{
     font-size: 1.4em;
   }
 
-  .our-service .text-service p{
+  #our-service .text-service p{
     font-size: 0.8em;
     text-align: justify;
   }
@@ -1020,11 +1031,11 @@ a:focus {
     font-size: 1em;
   }
 
-  .portofolio .text-portofolio h3{
+  #portofolio .text-portofolio h3{
     font-size: 1.7em;
   }
 
-  .portofolio .text-portofolio p{
+  #portofolio .text-portofolio p{
     font-size: 1em;
     text-align: justify;
     width: 95%;
@@ -1032,19 +1043,19 @@ a:focus {
     padding: auto;
   }
 
-  .about h3{
+  #about h3{
     font-size: 1.7em;
   }
 
-  .about .card img{
+  #about .card img{
     margin-top: 33%;
   }
 
-  .our-service .text-service h3{
+  #our-service .text-service h3{
     font-size: 1.7em;
   }
 
-  .our-service .text-service p{
+  #our-service .text-service p{
     font-size: 1em;
     text-align: justify;
   }
@@ -1180,9 +1191,7 @@ a:focus {
     margin: 0 auto;
   }
 
-  .about .card img{
+  #about .card img{
     margin-top: 7% !important;
   }
 }
-
-
