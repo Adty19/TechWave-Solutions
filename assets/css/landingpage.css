@@ -51,13 +51,13 @@ nav .navbar-brand{
   display: block;
   height: 3px;
   width: 0;
-  background: whitesmoke;
+  background: #48D1CC;
   transition: width .6s ease, background-color .7s ease;
 }
 
 .nav-link:hover:after{
 	width: 100%;
-  background: #48D1CC;
+  background: white;
 }
 
 nav.active{
@@ -386,7 +386,7 @@ a, a:hover {
 /* Settings About Us */
 .one-bg{
   height: auto;
-  margin-bottom: 5%;
+  background-color: #48D1CC;
 }
 
 .about{
@@ -397,6 +397,7 @@ a, a:hover {
 .about .container h3{
   padding-top: 2%;
   font-family: Montserrat;
+  color: white;
 }
 
 .about .card{
@@ -411,6 +412,7 @@ a, a:hover {
 .about .card p{
   text-align: justify;
   font-family: Kanit;
+  color: white;
 }
 /* Settings About Us */
 
@@ -422,10 +424,12 @@ a, a:hover {
 
 .our-service .text-service h3{
   font-family: Montserrat;
+  color: white;
 }
 
 .our-service .text-service p{
   font-family: Kanit;
+  color: white;
 }
 
 .section_our_solution{
@@ -609,7 +613,7 @@ a:focus {
 }
 
 .footer {
-  background: #62C4D2;
+  background: #008080;
   padding-top: 80px;
   padding-bottom: 40px;
 }
