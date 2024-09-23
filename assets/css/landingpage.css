@@ -92,6 +92,12 @@ navbar.active {
   width: 100%;
 }
 
+.background-img .iconbg img{
+  width: 30%;
+  margin-left: 60%;
+  margin-top: -50%;
+}
+
 .background-img .card-img-overlay{
   margin-top: 17vw !important;
   margin-left: 8%;
@@ -514,12 +520,14 @@ a, a:hover {
   font-size: 1.3rem;
   margin-top: 13px;
   margin-bottom: 13px;
+  font-family: Montserrat;
 }
 
 .solution_card .solu_description p {
   font-size: 15px;
   margin-bottom: 15px;
   text-align: justify;
+  font-family: Kanit;
 }
 
 .solution_card .solu_description button {
@@ -740,19 +748,32 @@ a:focus {
     margin-top: -3%;
   }
 
+  .background-img img{
+    height: 470px;
+  }
+
+  .background-img .iconbg img{
+    width: 60%;
+    height: auto;
+    margin-left: 18%;
+    margin-top: -200%;
+  }
+
   .background-img .card-img-overlay{
-    margin-top: 15%;
-    margin-left: 5%;
+    margin-top: 80% !important;
+    margin-left: 0% !important;
   }
 
   .background-img .card-img-overlay h1{
-    font-size: 0.7em;
-    width: 65%;
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
   }
 
   .background-img .card-img-overlay p{
-    font-size: 0.5em;
-    width: 65%;
+    font-size: 0.8em;
+    width: 100%;
+    text-align: center;
   }
 
   .background-img .card-img-overlay .button{
@@ -760,7 +781,7 @@ a:focus {
   }
 
   .features{
-    margin-top: 5%;
+    margin-top: 0%;
     margin-bottom: 5%;
   }
 
@@ -768,6 +789,7 @@ a:focus {
     width: 85%;
     padding: auto;
     margin: auto;
+    margin-top: -3%;
   }
 
   .features .card h5{
@@ -885,27 +907,45 @@ a:focus {
     width: 80%;
   }
   
+  .background-img img{
+    height: 720px;
+  }
+
+  .background-img .iconbg img{
+    width: 70%;
+    height: auto;
+    margin-left: 14%;
+    margin-top: -230%;
+  }
+
   .background-img .card-img-overlay{
-    margin-top: 15% !important;
-    margin-left: 5%;
+    margin-top: 95% !important;
+    margin-left: 0%;
   }
 
   .background-img .card-img-overlay h1{
-    font-size: 1em;
-    width: 65%;
+    font-size: 1.5em;
+    width: 100%;
+    margin: auto;
+    padding: auto;
+    text-align: center;
   }
 
   .background-img .card-img-overlay p{
-    font-size: 0.6em;
-    width: 60%;
+    font-size: 1em;
+    width: 100%;
+    margin: auto;
+    padding: auto;
+    text-align: center;
   }
 
   .background-img .card-img-overlay .button{
-    margin-top: -3%;
+    margin-top: 2%;
+    font-size: 20px;
   }
 
   .features{
-    margin-top: 5%;
+    margin-top: 2%;
     margin-bottom: 5%;
   }
 
@@ -913,6 +953,7 @@ a:focus {
     width: 90%;
     margin: auto;
     padding: auto;
+    margin-top: -3%;
   }
 
   .features .card-body h5{
@@ -1195,3 +1236,5 @@ a:focus {
     margin-top: 7% !important;
   }
 }
+
+
