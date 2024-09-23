@@ -908,14 +908,14 @@ a:focus {
   }
   
   .background-img img{
-    height: 720px;
+    height: 800px;
   }
 
   .background-img .iconbg img{
     width: 70%;
     height: auto;
     margin-left: 14%;
-    margin-top: -230%;
+    margin-top: -265%;
   }
 
   .background-img .card-img-overlay{
