@@ -908,14 +908,14 @@ a:focus {
   }
   
   .background-img img{
-    height: 830px;
+    height: 800px;
   }
 
   .background-img .iconbg img{
     width: 70%;
     height: auto;
     margin-left: 14%;
-    margin-top: -285%;
+    margin-top: -265%;
   }
 
   .background-img .card-img-overlay{
@@ -924,8 +924,8 @@ a:focus {
   }
 
   .background-img .card-img-overlay h1{
-    font-size: 1.5em;
-    width: 100%;
+    font-size: 1.3em;
+    width: 95%;
     margin: auto;
     padding: auto;
     text-align: center;
@@ -933,7 +933,7 @@ a:focus {
 
   .background-img .card-img-overlay p{
     font-size: 1em;
-    width: 100%;
+    width: 95%;
     margin: auto;
     padding: auto;
     text-align: center;
@@ -950,9 +950,6 @@ a:focus {
   }
 
   .features .card{
-    width: 90%;
-    margin: auto;
-    padding: auto;
     margin-top: -3%;
   }
 
@@ -1236,5 +1233,5 @@ a:focus {
     margin-top: 7% !important;
   }
 }
-
+/* Settings Responsive Ukuran Mac/Desktop */
 
