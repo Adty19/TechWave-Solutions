@@ -422,7 +422,7 @@ a, a:hover {
 }
 
 #about .card img{
-  margin-top: 7% !important;
+  margin-top: 7%;
 }
 
 #about .card p{
@@ -749,63 +749,77 @@ a:focus {
   }
 
   .background-img img{
-    height: 470px;
+    height: 800px;
   }
 
   .background-img .iconbg img{
-    width: 60%;
+    width: 70%;
     height: auto;
-    margin-left: 18%;
-    margin-top: -200%;
+    margin-left: 15%;
+    margin-top: -290%;
   }
 
   .background-img .card-img-overlay{
-    margin-top: 80% !important;
+    margin-top: 95% !important;
     margin-left: 0% !important;
   }
 
   .background-img .card-img-overlay h1{
-    font-size: 1em;
-    width: 100%;
+    font-size: 1.3em;
+    width: 95%;
+    margin: auto;
+    padding: auto;
     text-align: center;
   }
 
   .background-img .card-img-overlay p{
-    font-size: 0.8em;
-    width: 100%;
+    font-size: 1em;
+    width: 95%;
+    margin: auto;
+    padding: auto;
     text-align: center;
   }
 
-  .background-img .card-img-overlay .button{
-    margin-top: -3.5%;
+  .background-img .card-img-overlay .button a {
+    display: inline-block;
+    padding: 8px 18px;
+    text-align: center;
+    background-color: #2AA0B1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .background-img .card-img-overlay .button a:hover {
+    background-color: white;
+    color: #2AA0B1;
+    border: 2px solid #2AA0B1;
   }
 
   .features{
-    margin-top: 0%;
+    margin-top: 2%;
     margin-bottom: 5%;
   }
 
   .features .card{
-    width: 85%;
-    padding: auto;
-    margin: auto;
     margin-top: -3%;
   }
 
-  .features .card h5{
-    font-size: 1em;
-  }
-
-  .features .card p{
-    font-size: 0.7em;
-  }
-
-  #portofolio .text-portofolio h3{
+  .features .card-body h5{
     font-size: 1.2em;
   }
 
+  .features .card-body p{
+    font-size: 0.8em;
+  }
+
+  #portofolio .text-portofolio h3{
+    font-size: 1.4em;
+  }
+
   #portofolio .text-portofolio p{
-    font-size: 0.7em !important;
+    font-size: 0.8em !important;
     text-align: justify;
     width: 90%;
     padding: auto;
@@ -813,19 +827,19 @@ a:focus {
   }
 
   .postcard .postcard__title{
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 
   .postcard .postcard__subtitle{
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
 
   .postcard .postcard__preview-txt{
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
 
-  .about h3{
-    font-size: 1.2em;
+  #about h3{
+    font-size: 1.4em;
   }
 
   #about .card img{
@@ -835,15 +849,15 @@ a:focus {
   }
 
   #about .card-body p{
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
 
   #our-service .text-service h3{
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
 
   #our-service .text-service p{
-    font-size: 0.7em;
+    font-size: 0.8em;
     text-align: justify;
   }
 
@@ -852,25 +866,11 @@ a:focus {
   }
 
   .solution_card .solu_description p{
-    font-size: 0.7em;
-  }
-
-  .sol_card_top_3 {
-    position: relative;
-    top: 0;
-  }
-  
-  .our_solution_category {
-    width: 100%;
-    margin: 0 auto;
-  }
-  
-  .our_solution_category .solution_cards_box {
-    flex: auto;
+    font-size: 0.8em;
   }
 
   .footer .row{
-    margin-top: -15%;
+    margin-top: -11%;
   }
 
   .footer .single_footer ul{
@@ -878,12 +878,12 @@ a:focus {
   }
 
   .footer .single_footer a{
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 
   .footer .single_footer_address h4{
     margin-top: 8%;
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
 
   .footer .single_footer_address ul{
@@ -891,18 +891,18 @@ a:focus {
   }
 
   .footer .single_footer_address a{
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 
   .footer .copyright{
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 }
 /* Settings Responsive Ukuran Kecil */
 
 
 /* Settings Responsive Ukuran Hp Normal */
-@media (min-width: 410px) and (max-width: 767px){
+@media (min-width: 410px) and (max-width: 780px){
   nav .navbar-brand img{
     width: 80%;
   }
@@ -939,9 +939,21 @@ a:focus {
     text-align: center;
   }
 
-  .background-img .card-img-overlay .button{
-    margin-top: 2%;
-    font-size: 20px;
+  .background-img .card-img-overlay .button a {
+    display: inline-block;
+    padding: 8px 18px;
+    text-align: center;
+    background-color: #2AA0B1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .background-img .card-img-overlay .button a:hover {
+    background-color: white;
+    color: #2AA0B1;
+    border: 2px solid #2AA0B1;
   }
 
   .features{
@@ -1049,7 +1061,7 @@ a:focus {
 
 
 /* Settings Responsive Ukuran Tablet Normal*/
-@media screen and (min-width: 768px){
+@media screen and (min-width: 800px){
   .background-img .card-img-overlay{
     margin-top: 13% !important;
   }
@@ -1064,6 +1076,7 @@ a:focus {
     width: 60%;
   }
 
+  
   .features .card-body p{
     letter-spacing: -1.5px;
     font-size: 1em;
@@ -1190,7 +1203,7 @@ a:focus {
   }
 
   .about .card img{
-    margin-top: 33% !important;
+    margin-top: 50% !important;
   }
 
   .footer .title-desc{
@@ -1203,7 +1216,7 @@ a:focus {
 /* Settings Responsive Ukuran Mac/Desktop */
 @media only screen and (min-width: 1024px) {
   .background-img .card-img-overlay{
-    margin-top: 15% !important;
+    margin-top: 17% !important;
   }
   
   .background-img .card-img-overlay h1{
