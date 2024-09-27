@@ -749,18 +749,18 @@ a:focus {
   }
 
   .background-img img{
-    height: 800px;
+    height: 850px;
   }
 
   .background-img .iconbg img{
     width: 70%;
     height: auto;
     margin-left: 15%;
-    margin-top: -290%;
+    margin-top: -310%;
   }
 
   .background-img .card-img-overlay{
-    margin-top: 95% !important;
+    margin-top: 97% !important;
     margin-left: 0% !important;
   }
 
@@ -915,11 +915,11 @@ a:focus {
     width: 70%;
     height: auto;
     margin-left: 14%;
-    margin-top: -265%;
+    margin-top: -275%;
   }
 
   .background-img .card-img-overlay{
-    margin-top: 95% !important;
+    margin-top: 102% !important;
     margin-left: 0%;
   }
 
