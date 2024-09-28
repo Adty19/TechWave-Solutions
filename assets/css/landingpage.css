@@ -67,7 +67,7 @@ nav .navbar-brand{
 
 .nav-link:hover:after{
 	width: 100%;
-  background: white;
+  background: #61c2e2;
 }
 
 nav.active{
@@ -94,7 +94,7 @@ navbar.active {
 
 .background-img .iconbg img{
   width: 30%;
-  margin-left: 60%;
+  margin-left: 62%;
   margin-top: -50%;
 }
 
@@ -738,7 +738,7 @@ a:focus {
 
 
 /* Settings Responsive Ukuran Kecil */
-@media (min-width: 300px) and (max-width: 410px){
+@media (min-width: 375px) and (max-width: 400px){
   nav .navbar-brand{
     width: 70%;
   }
@@ -899,6 +899,170 @@ a:focus {
   }
 }
 /* Settings Responsive Ukuran Kecil */
+
+
+
+@media (min-width: 300px) and (max-width: 375px){
+  nav .navbar-brand{
+    width: 70%;
+  }
+
+  nav .navbar-brand img{
+    width: 70%;
+    margin-top: -3%;
+  }
+  
+  .background-img img{
+    height: 820px;
+  }
+
+  .background-img .iconbg img{
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-top: -313%;
+  }
+
+  .background-img .card-img-overlay{
+    margin-top: 105% !important;
+    margin-left: 0% !important;
+  }
+
+  .background-img .card-img-overlay h1{
+    font-size: 1.2em;
+    width: 95%;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+  }
+
+  .background-img .card-img-overlay p{
+    font-size: 0.9em;
+    width: 95%;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+  }
+
+  .background-img .card-img-overlay .button a {
+    display: inline-block;
+    padding: 8px 18px;
+    text-align: center;
+    background-color: #2AA0B1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .background-img .card-img-overlay .button a:hover {
+    background-color: white;
+    color: #2AA0B1;
+    border: 2px solid #2AA0B1;
+  }
+
+  .features{
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+
+  .features .card{
+    margin-top: -3%;
+  }
+
+  .features .card-body h5{
+    font-size: 1.2em;
+  }
+
+  .features .card-body p{
+    font-size: 0.8em;
+  }
+
+  #portofolio .text-portofolio h3{
+    font-size: 1.4em;
+  }
+
+  #portofolio .text-portofolio p{
+    font-size: 0.8em !important;
+    text-align: justify;
+    width: 90%;
+    padding: auto;
+    margin: auto;
+  }
+
+  .postcard .postcard__title{
+    font-size: 1.2em;
+  }
+
+  .postcard .postcard__subtitle{
+    font-size: 0.8em;
+  }
+
+  .postcard .postcard__preview-txt{
+    font-size: 0.8em;
+  }
+
+  #about h3{
+    font-size: 1.4em;
+  }
+
+  #about .card img{
+    width: 90%;
+    margin: auto;
+    padding: auto;
+  }
+
+  #about .card-body p{
+    font-size: 0.8em;
+  }
+
+  #our-service .text-service h3{
+    font-size: 1.4em;
+  }
+
+  #our-service .text-service p{
+    font-size: 0.8em;
+    text-align: justify;
+  }
+
+  .solution_card .solu_title h3{
+    font-size: 1.2em;
+  }
+
+  .solution_card .solu_description p{
+    font-size: 0.8em;
+  }
+
+  .footer .row{
+    margin-top: -11%;
+  }
+
+  .footer .single_footer ul{
+    margin-top: -5%;
+  }
+
+  .footer .single_footer a{
+    font-size: 0.9em;
+  }
+
+  .footer .single_footer_address h4{
+    margin-top: 8%;
+    font-size: 1.4em;
+  }
+
+  .footer .single_footer_address ul{
+    margin-top: -5%;
+  }
+
+  .footer .single_footer_address a{
+    font-size: 0.9em;
+  }
+
+  .footer .copyright{
+    font-size: 0.9em;
+  }
+}
+
 
 
 /* Settings Responsive Ukuran Hp Normal */
